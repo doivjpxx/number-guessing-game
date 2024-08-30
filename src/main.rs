@@ -85,3 +85,25 @@ fn main() {
         }
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_handle_choice() {
+        assert_eq!(handle_choice(1), 10);
+        assert_eq!(handle_choice(2), 5);
+        assert_eq!(handle_choice(3), 3);
+        assert_eq!(handle_choice(4), 5);
+    }
+
+    #[test]
+    fn test_handle_guess() {
+        assert_eq!(handle_guess(50, 50, 1), true);
+        assert_eq!(handle_guess(50, 60, 1), false);
+        assert_eq!(handle_guess(50, 40, 1), false);
+    }
+}
+     
+     

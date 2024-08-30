@@ -1,7 +1,7 @@
 ## Guessing Game
 
 ### Description
-This is a simple command-line guessing game written in Rust. The objective of the game is to guess a randomly generated number within a specified range and number of attempts.
+This is a simple command-line guessing game written in Rust. The objective of the game is to guess a randomly generated number within a specified range and number of attempts. The challenge is come from [https://roadmap.sh/projects/number-guessing-game](https://roadmap.sh/projects/number-guessing-game)
 
 ### How to Play
 1. Start the Game: Run the program, and you will be prompted to enter your choice.
